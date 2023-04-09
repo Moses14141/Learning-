@@ -1,0 +1,51 @@
+ body{
+
+  background-image: url("https://img.freepik.com/fotos-premium/fundo-do-ceu-por-do-sol_27109-118.jpg");
+
+    
+
+    }
+  
+h2{
+  position:static;
+  margin-left: 50px;
+}
+
+
+.dropdownbutton{
+background-color: blue;
+color: white;
+padding: 13px;
+font-size: 16px;
+border: none;
+cursor: pointer;
+
+}
+
+.dropdown-menu {
+
+  position: absolute;
+  background-color: lightblue;
+  min-width: 150px;
+
+}
+
+.dropdown-menu a {
+
+  color: black;
+  passing: 11px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+ background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdow:hover .dropdownbutton {
+  background-color: rgb(red, green, blue);
+}
